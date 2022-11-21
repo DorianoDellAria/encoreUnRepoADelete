@@ -84,7 +84,7 @@ class ProfCoursTest extends TestCase
         ];
 
         foreach (self::$prof_a as $prof) {
-            $prof->save(self::$conn);
+            $prof->add(self::$conn);
         }
 
 
@@ -109,7 +109,7 @@ class ProfCoursTest extends TestCase
         ];
 
         foreach (self::$cours_a as $cours) {
-            $cours->save(self::$conn);
+            $cours->add(self::$conn);
         }
         
     }
